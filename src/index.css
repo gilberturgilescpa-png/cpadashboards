@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-[#060B18] text-slate-100 font-sans antialiased; }
+}
+
+@layer utilities {
+  .text-gradient { @apply bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent; }
+  .card-glow { box-shadow: 0 0 0 1px rgba(37,99,235,0.2), 0 4px 24px rgba(37,99,235,0.08); }
+  .card-glow-hover:hover { box-shadow: 0 0 0 1px rgba(37,99,235,0.4), 0 8px 40px rgba(37,99,235,0.15); }
+}
