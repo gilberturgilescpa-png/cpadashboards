@@ -146,7 +146,7 @@ export default function Services() {
 
             {/* CTA */}
             <a
-              href="https://calendly.com"
+              href="https://calendly.com/gilbert-urgiles-cpa/30min"
               target="_blank"
               rel="noopener noreferrer"
               className={`block text-center ${plan.ctaClass}`}
@@ -161,7 +161,7 @@ export default function Services() {
       <p className="text-slate-400 text-sm mt-8 text-center">
         Not sure which plan fits?{' '}
         <a
-          href="https://calendly.com"
+          href="https://calendly.com/gilbert-urgiles-cpa/30min"
           target="_blank"
           rel="noopener noreferrer"
           className="underline hover:text-blue-400 transition-colors"
@@ -173,3 +173,4 @@ export default function Services() {
     </section>
   )
 }
+

@@ -147,7 +147,7 @@ export default function Portfolio() {
         <div className="text-center mt-10">
           <p className="text-slate-400 text-sm mb-4">Ready to see what we can build for you?</p>
           <a
-            href="https://calendly.com"
+            href="https://calendly.com/gilbert-urgiles-cpa/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex bg-blue-600 hover:bg-blue-500 text-white rounded-full px-8 py-3 font-semibold transition-colors"
@@ -159,3 +159,4 @@ export default function Portfolio() {
     </section>
   )
 }
+

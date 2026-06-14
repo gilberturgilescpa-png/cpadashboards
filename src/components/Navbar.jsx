@@ -49,7 +49,7 @@ export default function Navbar() {
         {/* CTA + hamburger */}
         <div className="flex items-center gap-4">
           <a
-            href="https://calendly.com"
+            href="https://calendly.com/gilbert-urgiles-cpa/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex bg-blue-600 hover:bg-blue-500 text-white rounded-full px-5 py-2 text-sm font-semibold transition-colors"
@@ -80,7 +80,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://calendly.com"
+            href="https://calendly.com/gilbert-urgiles-cpa/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 hover:bg-blue-500 text-white rounded-full px-5 py-2 text-sm font-semibold text-center transition-colors mt-2"
@@ -92,3 +92,4 @@ export default function Navbar() {
     </header>
   )
 }
+

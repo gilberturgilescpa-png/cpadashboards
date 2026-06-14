@@ -34,7 +34,7 @@ export default function Hero() {
           {/* Buttons */}
           <div className="mt-8 flex gap-4 flex-wrap">
             <a
-              href="https://calendly.com"
+              href="https://calendly.com/gilbert-urgiles-cpa/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 hover:bg-blue-500 text-white rounded-full px-8 py-4 font-semibold text-lg transition-colors"
@@ -165,3 +165,4 @@ export default function Hero() {
     </section>
   )
 }
+

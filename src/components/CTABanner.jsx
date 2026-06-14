@@ -24,7 +24,7 @@ export default function CTABanner() {
         </p>
         <div className="mt-8">
           <a
-            href="https://calendly.com"
+            href="https://calendly.com/gilbert-urgiles-cpa/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex bg-white text-blue-700 hover:bg-blue-50 rounded-full px-10 py-4 text-lg font-bold transition-colors shadow-lg"
@@ -39,3 +39,4 @@ export default function CTABanner() {
     </section>
   )
 }
+
