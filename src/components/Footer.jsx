@@ -1,4 +1,4 @@
-import { BarChart2, ExternalLink, Mail } from 'lucide-react'
+﻿﻿import { BarChart2, ExternalLink, Mail } from 'lucide-react'
 
 const serviceLinks = [
   'Dashboard Jumpstart',
@@ -11,7 +11,7 @@ const companyLinks = [
   { label: 'About', href: '#about' },
   { label: 'Portfolio', href: '#portfolio' },
   { label: 'FAQ', href: '#faq' },
-  { label: 'Book a Call', href: 'https://calendly.com' },
+  { label: 'Book a Call', href: 'https://calendly.com/gilbert-urgiles-cpa/30min' },
 ]
 
 export default function Footer() {
@@ -29,7 +29,7 @@ export default function Footer() {
             Power BI dashboards built by a licensed CPA.
           </p>
           <p className="text-slate-500 text-xs mt-1">
-            San Antonio, TX · Serving clients nationwide.
+            San Antonio, TX — Serving clients nationwide.
           </p>
           <a
             href="mailto:gilbert@cpadashboards.com"
@@ -104,7 +104,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-[#1A2B4A] py-6 px-6 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-slate-500 text-xs">
-          © 2025 CPA Dashboards LLC. All rights reserved.
+          © 2026 CPA Dashboards LLC. All rights reserved.
         </p>
         <p className="text-slate-500 text-xs max-w-md text-center">
           This is not a CPA firm and these services are not regulated by the Texas State Board of Public Accountancy.
