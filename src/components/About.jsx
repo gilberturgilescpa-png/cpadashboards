@@ -11,15 +11,17 @@ export default function About() {
     <section id="about" className="py-24 px-6 bg-[#080D1A]/40">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 
-        {/* Left — avatar card */}
+        {/* Left — headshot */}
         <div className="flex justify-center">
           <div
-            className="bg-gradient-to-br from-blue-600 to-blue-900 rounded-2xl aspect-square max-w-sm w-full flex flex-col items-center justify-center border border-blue-500/30"
+            className="rounded-2xl overflow-hidden max-w-sm w-full border border-blue-500/30"
             style={{ boxShadow: '0 0 40px rgba(37,99,235,0.2)' }}
           >
-            <div className="text-8xl font-black text-white/20 select-none">GU</div>
-            <div className="text-white font-bold text-xl mt-4">Gilbert Urgiles</div>
-            <div className="text-blue-200 text-sm mt-1">CPA, Power BI Developer</div>
+            <img
+              src="/gilbert-urgiles.jpg"
+              alt="Gilbert Urgiles, CPA and Power BI Developer"
+              className="w-full h-full object-cover object-top"
+            />
           </div>
         </div>
 
