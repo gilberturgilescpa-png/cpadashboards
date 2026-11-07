@@ -4,7 +4,7 @@ const cards = [
   {
     icon: Award,
     title: 'CPA-Level Financial Fluency',
-    desc: 'Licensed CPA with 10+ years in FP&A, internal audit, and financial reporting. Your dashboards are built by someone who actually understands what the numbers mean.',
+    desc: 'Licensed CPA with 10+ years of combined experience in accounting, finance, and analytics. Your dashboards are built by someone who actually understands what the numbers mean.',
   },
   {
     icon: Building2,
@@ -19,7 +19,7 @@ const cards = [
   {
     icon: Zap,
     title: 'Fast Time to Value',
-    desc: 'Your first dashboard is live within 2 weeks. No long discovery phases, no enterprise sales cycles — just clean data and clear answers.',
+    desc: 'No long discovery phases, no enterprise sales cycles — just clean data and clear answers delivered as quickly as your data allows.',
   },
   {
     icon: Shield,
