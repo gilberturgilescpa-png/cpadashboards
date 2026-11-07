@@ -60,8 +60,8 @@ export default function Hero() {
               <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">CPA, TX #116976</div>
             </div>
             <div>
-              <div className="text-3xl font-black text-white">Fortune 500</div>
-              <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">Current Employer</div>
+              <div className="text-3xl font-black text-white">Built for Complexity</div>
+              <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">BI Across Banking, Healthcare & Finance</div>
             </div>
           </div>
         </div>
