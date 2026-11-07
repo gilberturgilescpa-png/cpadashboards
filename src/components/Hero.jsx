@@ -53,11 +53,15 @@ export default function Hero() {
           <div className="mt-12 flex gap-8 flex-wrap">
             <div>
               <div className="text-3xl font-black text-white">10+</div>
-              <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">Years Combined in Accounting, Finance & Analytics</div>
+              <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">Years in Finance & Analytics</div>
             </div>
             <div>
               <div className="text-3xl font-black text-white">Licensed</div>
               <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">CPA, TX #116976</div>
+            </div>
+            <div>
+              <div className="text-3xl font-black text-white">Fortune 500</div>
+              <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">Current Employer</div>
             </div>
           </div>
         </div>
