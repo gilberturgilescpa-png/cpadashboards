@@ -18,6 +18,7 @@ const plans = [
       { text: 'No ongoing updates', included: false },
     ],
     featured: false,
+    ctaHref: 'https://buy.stripe.com/5kQfZh0Ot7xJc6T89J7N600',
     ctaClass: 'w-full border border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white rounded-xl py-3 font-semibold mt-8 transition-all',
   },
   {
@@ -35,6 +36,7 @@ const plans = [
       { text: 'Data refresh monitoring', included: true },
     ],
     featured: false,
+    ctaHref: 'https://buy.stripe.com/fZu00j9kZ3htfj51Ll7N601',
     ctaClass: 'w-full border border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white rounded-xl py-3 font-semibold mt-8 transition-all',
   },
   {
@@ -53,6 +55,7 @@ const plans = [
       { text: 'KPI framework consultation', included: true },
     ],
     featured: true,
+    ctaHref: 'https://buy.stripe.com/7sYfZh54J5pB4ErblV7N602',
     ctaClass: 'w-full bg-blue-600 hover:bg-blue-500 text-white rounded-xl py-3 font-semibold mt-8 transition-all',
   },
   {
@@ -72,6 +75,7 @@ const plans = [
       { text: 'Dedicated Slack channel', included: true },
     ],
     featured: false,
+    ctaHref: 'https://buy.stripe.com/fZubJ12WB4lx6Mz4Xx7N603',
     ctaClass: 'w-full border border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white rounded-xl py-3 font-semibold mt-8 transition-all',
   },
 ]
@@ -146,7 +150,7 @@ export default function Services() {
 
             {/* CTA */}
             <a
-              href="https://calendly.com/gilbert-urgiles-cpa/30min"
+              href={plan.ctaHref}
               target="_blank"
               rel="noopener noreferrer"
               className={`block text-center ${plan.ctaClass}`}
