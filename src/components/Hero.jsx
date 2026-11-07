@@ -22,13 +22,13 @@ export default function Hero() {
 
           {/* H1 */}
           <h1 className="text-5xl md:text-6xl font-black leading-tight mt-4 text-white">
-            Your Finance Data,{' '}
-            <span className="text-gradient">Finally Under Control</span>
+            Stop Running Your Business on{' '}
+            <span className="text-gradient">Last Month's Numbers</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl text-slate-400 mt-4 max-w-lg leading-relaxed">
-            Custom Power BI dashboards built by a licensed CPA — for CFOs, Controllers, and growing businesses that have outgrown Excel.
+            Most growing businesses make decisions based on stale spreadsheets and reports that take days to pull. We connect your QuickBooks, Excel, and financial data into one live view — built by a licensed CPA who understands what the numbers actually mean.
           </p>
 
           {/* Buttons */}
@@ -52,16 +52,16 @@ export default function Hero() {
           {/* Stats */}
           <div className="mt-12 flex gap-8 flex-wrap">
             <div>
-              <div className="text-3xl font-black text-white">10+</div>
-              <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">Years in Finance & Analytics</div>
+              <div className="text-3xl font-black text-white">Always Current</div>
+              <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">Live data, not last month's export</div>
             </div>
             <div>
               <div className="text-3xl font-black text-white">Licensed</div>
               <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">CPA, TX #116976</div>
             </div>
             <div>
-              <div className="text-3xl font-black text-white">Built for Complexity</div>
-              <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">BI Across Banking, Healthcare & Finance</div>
+              <div className="text-3xl font-black text-white">Banking · Healthcare · Finance</div>
+              <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">Industries we've worked in</div>
             </div>
           </div>
         </div>
